@@ -1,0 +1,35 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>_headLinks}}
+</head>
+
+<body>
+   
+    {{>_header}}
+
+    <!-- main header -->
+    <div class="errorPage">
+            
+        <!-- left part -->
+        <div>
+            <figure>
+                <img src="images/404_img.png" alt="manvi"  title="Manvi Bansal" class="img-fluid" style="height:250px; width: 800px;">
+            </figure>    
+        </div>
+        
+        <!-- right part -->
+         <div>
+            <h1>{{error_msg}}</h1>
+            <a href="/"><button>Go Back</button></a>
+        </div>
+                
+    </div>
+
+      {{>_footer}}
+      
+</body>
+</html>
